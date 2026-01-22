@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "infinity-additions",
+	"version": "0.1.0-alpha",
+	"name": "Infinity Additions",
+	"description": "Little mod with great useful additions to Minecraft!",
+	"authors": [
+		"The Infinity Works Team"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/TheInfinityWorks/infinityadditions"
+	},
+	"license": "MIT",
+	"icon": "assets/infinity-additions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"iw.infinityadditions.InfinityAdditions"
+		],
+		"fabric-datagen": [
+			"iw.infinityadditions.InfinityAdditionsDataGenerator"
+		],
+      "client": [
+        "iw.infinityadditions.InfinityAdditionsClient"
+      ]
+	},
+	"mixins": [
+		"infinity-additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
