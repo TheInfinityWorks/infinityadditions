@@ -17,11 +17,13 @@ public class ModItems {
     }
 
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(InfinityAdditions.MOD_ID,"ruby")))));
+    public static final Item CACTUS_FIBER = registerItem("cactus_fiber", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(InfinityAdditions.MOD_ID,"cactus_fiber")))));
 
     public static void registerModItems(){
         InfinityAdditions.LOGGER.info("Registering Infinity Additions Mod Items!");
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(RUBY);
+            fabricItemGroupEntries.add(CACTUS_FIBER);
         });
     }
 }
