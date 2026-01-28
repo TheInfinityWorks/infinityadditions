@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "infinity-additions:block/original_ruby_block"
+  }
+}

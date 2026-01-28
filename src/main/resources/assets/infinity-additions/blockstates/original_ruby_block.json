@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "":
+    {
+      "model": "infinity-additions:block/original_ruby_block"
+    }
+  }
+}

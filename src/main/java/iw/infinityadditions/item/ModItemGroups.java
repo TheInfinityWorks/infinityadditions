@@ -9,8 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import static iw.infinityadditions.block.ModBlocks.NETHER_RUBY_ORE;
-import static iw.infinityadditions.block.ModBlocks.RUBY_BLOCK;
+import static iw.infinityadditions.block.ModBlocks.*;
 import static iw.infinityadditions.item.ModItems.CACTUS_FIBER;
 import static iw.infinityadditions.item.ModItems.RUBY;
 
@@ -22,6 +21,8 @@ public class ModItemGroups {
                         entries.add(RUBY_BLOCK);
                         entries.add(NETHER_RUBY_ORE);
                         entries.add(CACTUS_FIBER);
+//                        entries.add(ORIGINAL_RUBY_BLOCK);
+//                        entries.add(REPLICA_RUBY_BLOCK);
                     })
             .build());
     public static void registerItemGroups(){
