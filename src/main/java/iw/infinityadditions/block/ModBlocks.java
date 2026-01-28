@@ -43,10 +43,14 @@ public class ModBlocks {
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block", AbstractBlock.Settings.create().strength(4f, 4f).requiresTool().sounds(BlockSoundGroup.METAL));
 
+    public static final Block NETHER_RUBY_ORE = registerBlock("nether_ruby_ore", AbstractBlock.Settings.create().strength(3.5f, 3f).requiresTool().sounds(BlockSoundGroup.NETHER_ORE));
+
     public static void registerModBlocks(){
         InfinityAdditions.LOGGER.info("Registering Infinity Additions Mod Blocks!");
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(RUBY_BLOCK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> { fabricItemGroupEntries.add(NETHER_RUBY_ORE);
         });
     }
 }

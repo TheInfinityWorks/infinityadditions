@@ -1,4 +1,5 @@
 {
+  "itemgroup.infinityadditions.infinity_additions": "Adições Infinitas",
   "item.infinity-additions.ruby": "Rubi",
   "item.infinity-additions.ruby_pickaxe": "Picareta de Rubi",
   "item.infinity-additions.ruby_shovel": "Pá de Rubi",
@@ -10,5 +11,6 @@
   "item.infinity-additions.ruby_chestplate": "Peitoral de Rubi",
   "item.infinity-additions.ruby_helmet": "Capacete de Rubi",
   "item.infinity-additions.cactus_fiber": "Fibra de Cacto",
-  "item.infinity-additions.ruby_block": "Bloco de Rubi"
+  "item.infinity-additions.ruby_block": "Bloco de Rubi",
+  "item.infinity-additions.nether_ruby_ore": "Minério de Rubi"
 }

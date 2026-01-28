@@ -1,4 +1,5 @@
 {
+  "itemgroup.infinityadditions.infinity_additions": "Infinity Additions",
   "item.infinity-additions.ruby": "Ruby",
   "item.infinity-additions.ruby_pickaxe": "Ruby Pickaxe",
   "item.infinity-additions.ruby_shovel": "Ruby Shovel",
@@ -10,5 +11,6 @@
   "item.infinity-additions.ruby_chestplate": "Ruby Chestplate",
   "item.infinity-additions.ruby_helmet": "Ruby Helmet",
   "item.infinity-additions.cactus_fiber": "Cactus Fiber",
-  "item.infinity-additions.ruby_block": "Ruby Block"
+  "item.infinity-additions.ruby_block": "Ruby Block",
+  "item.infinity-additions.nether_ruby_ore": "Ruby Ore"
 }

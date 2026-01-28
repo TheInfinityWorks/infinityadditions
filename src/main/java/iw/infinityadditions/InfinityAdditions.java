@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static iw.infinityadditions.block.ModBlocks.registerModBlocks;
+import static iw.infinityadditions.item.ModItemGroups.registerItemGroups;
 import static iw.infinityadditions.item.ModItems.registerModItems;
 
 public class InfinityAdditions implements ModInitializer {
@@ -15,6 +16,7 @@ public class InfinityAdditions implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing Mod!");
+        registerItemGroups();
         registerModItems();
         registerModBlocks();
 	}
